@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background-image: url('../img/the_moyka.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active {
+  color: #F4A460;
+  border-bottom: 2px dashed #F4A460;
+}
+
+.header, .content, .footer {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.inner_header, .inner_content, .inner_footer {
+  width: 1440px;
+  padding: 10px;
+}
+
+.header,.footer {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.header {
+  position: sticky;
+  z-index: 3;
+  top: 0px;
+  height: 150px;
+}
+
+.partner, .box_text, .stil {
+  border-bottom: 3px dashed #F4A460;
+}
+
+.inner_header_top, .inner_header_bot, .box_text, .box_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+}
+
+
+.net_logo {
+  height: 50px;
+  background-color: rgba(244, 164, 96, 0.5);
+  border-radius: 50%;
+}
+
+.net_logo:hover, .net_logo:active {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.5);
+}
+
+.content, .inner_content {
+  min-height: 1000px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.box {
+  height: 500px;
+  margin: 10px 0px;
+  width: 710px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.box_content {
+  height: 400px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.footer {
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+.partner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+  margin: 10px 0px;
+  padding-bottom: 10px;
+}
+
+.logo_part {
+  width: 200px;
+}
+
+.content_img {
+  width: 710px;
+  overflow: hidden;
+  position: relative;
+}
+
+.services {
+  width: 710px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.serv_logo {
+  display: inline-block;
+  width: 100px;
+  margin: 10px 50px;
+  border-radius: 25%;
+  background-color: rgba(255, 222, 173, 0.2);
+}
